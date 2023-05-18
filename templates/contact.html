@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% endblock title %}
+{% block header %}{% endblock header %} 
+{% block content %}
+<div class="div-width-100-text-center">
+	<h3>{% trans "contacts" %}</h3>
+</div>
+<div class="row">
+	<div class="col-md-3">
+		<h3 align="center">AlemPvl</h3>
+		{% if LANGUAGE_CODE == 'kk' %}
+			<p>Луговая көшесі, 16703 кабинет; 7 қабат, Павлодар, 140000</p>
+		{% else %}
+			<p>​Улица Луговая, 16​703 офис; 7 этаж​, Павлодар, 140000</p>		
+		{% endif %}		
+		<address>
+			<a href="mailto:office@alem.pvl.kz">office@alem.pvl.kz</a>						
+		</address>				
+		<p><a href="tel:+77057075557">+7‒705‒707‒55‒57</a><p>	
+	</div>
+	<div class="col-md-9" style="position:relative;overflow:hidden;">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2440.192663662879!2d76.92707231579907!3d52.29435747977201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42f834c5fcecfe09%3A0x45410d384078b564!2z0J_QsNC70LDRgtCwINCf0YDQtdC00L_RgNC40L3QuNC80LDRgtC10LvQtdC5INCf0LDQstC70L7QtNCw0YDRgdC60L7QuSDQvtCx0LvQsNGB0YLQuA!5e0!3m2!1sru!2skz!4v1684421165021!5m2!1sru!2skz" width="100%" height="500px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+	</div>
+</div>
+{% endblock content %}
