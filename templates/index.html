@@ -7,7 +7,11 @@
 {% endblock header %}
 {% block content %}
 <div class="div-width-100-text-center">
-	<h1>AlemPvl</h1>			
+	{% if LANGUAGE_CODE == 'kk' %}
+		<h1>AlemPVL</h1>	
+	{% else %}
+		<h1>AlemPVL</h1>	
+	{% endif %}				
 </div>
 <div class="part0">
 	<div class="row">
@@ -33,7 +37,8 @@
 <hr>
 
 <div class="div-width-100-text-center">
-	<h3>{% trans "countrys" %}</h3>
+	<!-- <h3>{% trans "countrys" %}</h3> -->
+	<h3>{% trans "Hot tours" %}</h3>
 </div>
 <div class="part1">
 	<div class="row" style="margin-top: 200px; margin-bottom: 200px" >
