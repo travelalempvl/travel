@@ -58,6 +58,10 @@ def index(request):
 def contact(request):
     return render(request, "contact.html")
 
+# Фотогалерея
+def photogallery(request):
+    return render(request, "photogallery.html")
+
 # Кабинет
 @login_required
 def cabinet(request):

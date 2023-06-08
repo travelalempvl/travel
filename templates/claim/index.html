@@ -35,7 +35,7 @@
 					<p>{{ n.start  | date:"d.m.Y" }}-{{ n.finish  | date:"d.m.Y" }}</p>	
 				</td>
 				<td>
-					<p>{{ n.result }}</p>	
+					<p><pre>{{ n.result }}</pre></p>	
 				</td>
 				<td>
 					<a href="{% url 'claim_edit' n.id %}">{% trans "Change" %}</a> |

@@ -28,6 +28,7 @@ urlpatterns = [
     path('contact/', views.contact, name='contact'),
     path('i18n/', include('django.conf.urls.i18n')),
     #path('export/excel/', views.export_excel, name='export_excel'),     
+    path('photogallery/', views.photogallery, name='photogallery'),
 
     path('cabinet/', views.cabinet, name='cabinet'),
 

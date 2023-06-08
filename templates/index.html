@@ -41,7 +41,7 @@
 	<h3>{% trans "Hot tours" %}</h3>
 </div>
 <div class="part1">
-	<div class="row" style="margin-top: 200px; margin-bottom: 200px" >
+	<div class="row" style="margin-top: 100px; margin-bottom: 100px" >
 		{% if country14.count > 0 %}
 			{% for c in country14 %}
 			<div class="col-lg-3">
@@ -142,7 +142,7 @@
 	<h3>{% trans "reviewss" %}</h3>		
 </div>
 <div class="part3">
-	<div class="row" style="margin-top: 100px;">
+	<div class="row" style="margin-top: 10px;">
 		{% if reviews14.count > 0 %}
 			{% for r in reviews14 %}
 				<div class="col-lg-3">
@@ -156,6 +156,22 @@
 		{% endif %}								
 	</div>
 	<h3 style="text-align: center;" ><a href="{% url 'reviews_list' %}">{% trans "all reviews" %}</a></h3>
+</div>
+<hr>
+
+<div class="div-width-100-text-center">
+	<h3>Безвизовые страны для Казахстана в 2023 году</h3>		
+</div>
+<div class="part3">
+	<div class="row">
+		<div class="col-md-8">
+			<p>При планировании путешествия в новую страну важно понимать, безвизовая она для граждан РК или нет. Визовый режим может сорвать горящую путевку. Чтобы не тратить время на консульские вопросы, следует знать, какие страны для Казахстана безвизовые.</p>
+			<p>Какие страны являются безвизовыми для Казахстана в 2023 году? В 2023 году граждане Казахстана без визы могут посетить <strong>Грузию, Армению, Сент-Винсент и Гренадины, Турцию, Албанию, Колумбию, Косту-Рику, Молдову, Монголию, Россию, Украину, Азербайджан, Аргентину, Барбадос, Беларусь, Бразилию, Южную Корею, Кыргызстан, Малайзию, Мальдивы, ОАЭ, Сербию, Таджикистан, Филиппины, Эквадор, Гонконг, Иран, Оман и Узбекистан</strong>.</p>
+		</div>
+		<div class="col-md-4">
+			<img src="{% static 'images/visa.jpg' %}" alt="dance" style="width:100%; padding: 10px;">
+		</div>
+	</div>
 </div>
 <hr>
 

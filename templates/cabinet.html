@@ -44,7 +44,7 @@
 					<p>{{ n.start  | date:"d.m.Y" }}-{{ n.finish  | date:"d.m.Y" }}</p>	
 				</td>
 				<td>
-					<p>{{ n.result }}</p>	
+					<p><pre>{{ n.result }}</pre></p>	
 				</td>
 				<td>
 					<a href="{% url 'reviews_create' n.hotel_id %}">{% trans "reviews create" %}</a>					

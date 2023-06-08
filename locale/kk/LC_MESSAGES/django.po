@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-22 12:05+0600\n"
+"POT-Creation-Date: 2023-06-08 10:04+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -134,7 +134,7 @@ msgstr "Жаңалықтар мәліметтері"
 msgid "photo_news"
 msgstr "Фото"
 
-#: .\kaz\views.py:466 .\templates\claim\create.html:15
+#: .\kaz\views.py:470 .\templates\claim\create.html:15
 msgid "room"
 msgstr "Сан түрі"
 
@@ -142,7 +142,7 @@ msgstr "Сан түрі"
 msgid "Home"
 msgstr "Үй"
 
-#: .\templates\base.html:43 .\templates\base.html:63
+#: .\templates\base.html:43 .\templates\base.html:66
 #: .\templates\country\read.html:63 .\templates\hotel\index.html:3
 #: .\templates\hotel\index.html:6 .\templates\hotel\list.html:4
 #: .\templates\hotel\list.html:8 .\templates\hotel\list.html:35
@@ -150,64 +150,69 @@ msgstr "Үй"
 msgid "hotels"
 msgstr "Қонақ үйлер"
 
-#: .\templates\base.html:46 .\templates\base.html:68
+#: .\templates\base.html:46 .\templates\photogallery.html:4
+#: .\templates\photogallery.html:28
+msgid "photogallery"
+msgstr "Фотогалерея"
+
+#: .\templates\base.html:49 .\templates\base.html:71
 #: .\templates\index.html:164 .\templates\news\index.html:3
 #: .\templates\news\index.html:6 .\templates\news\list.html:4
 #: .\templates\news\list.html:8
 msgid "newss"
 msgstr "Жаңалықтар"
 
-#: .\templates\base.html:49 .\templates\contact.html:7
+#: .\templates\base.html:52 .\templates\contact.html:7
 msgid "contacts"
 msgstr "Контактілер"
 
-#: .\templates\base.html:53 .\templates\cabinet.html:7
+#: .\templates\base.html:56 .\templates\cabinet.html:7
 msgid "cabinet"
 msgstr "Жеке бөлме"
 
-#: .\templates\base.html:61 .\templates\country\index.html:3
+#: .\templates\base.html:64 .\templates\country\index.html:3
 #: .\templates\country\index.html:6 .\templates\hotel\list.html:19
 #: .\templates\index.html:40
 msgid "countrys"
 msgstr "Елдер"
 
-#: .\templates\base.html:62 .\templates\country\read.html:43
+#: .\templates\base.html:65 .\templates\country\read.html:43
 #: .\templates\hotel\list.html:27 .\templates\region\index.html:3
 #: .\templates\region\index.html:6
 msgid "regions"
 msgstr "Аймақтар"
 
-#: .\templates\base.html:65 .\templates\cabinet.html:16
+#: .\templates\base.html:68 .\templates\cabinet.html:16
 #: .\templates\claim\index.html:3 .\templates\claim\index.html:6
 msgid "claims"
 msgstr "Қолданбалар"
 
-#: .\templates\base.html:66 .\templates\index.html:142
+#: .\templates\base.html:69 .\templates\index.html:142
 #: .\templates\reviews\index.html:4 .\templates\reviews\list.html:4
 msgid "reviewss"
 msgstr "Пікірлер"
 
-#: .\templates\base.html:73 .\templates\cabinet.html:12
+#: .\templates\base.html:76 .\templates\cabinet.html:12
 #: .\templates\registration\my_account.html:4
 #: .\templates\registration\my_account.html:10
 msgid "My account"
 msgstr "Менің аккаунтым"
 
-#: .\templates\base.html:74 .\templates\cabinet.html:14
+#: .\templates\base.html:77 .\templates\cabinet.html:14
 #: .\templates\registration\password_change_form.html:9
 #: .\templates\registration\password_change_form.html:15
 msgid "Change password"
 msgstr "Құпия сөзді өзгерту"
 
-#: .\templates\base.html:76
+#: .\templates\base.html:79
 msgid "Log out"
 msgstr "Шығу"
 
-#: .\templates\base.html:81
+#: .\templates\base.html:84
 msgid "Log In"
 msgstr "Кіру"
 
-#: .\templates\base.html:82 .\templates\registration\signup.html:4
+#: .\templates\base.html:85 .\templates\registration\signup.html:4
 #: .\templates\registration\signup.html:10
 msgid "Sign up"
 msgstr "Тіркеу"
